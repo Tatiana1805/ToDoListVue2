@@ -7,8 +7,8 @@
                 <p>Срок: {{ task.deadline }}</p>
                 <p>Приоритет: {{ task.priority }}</p>
                 <!-- router-link - используем для того чтобы отображать инфу в router-view (App) -->
-                <router-link :to="`/ToDoListVue/tasks/${task.id}`" class="button">Подробнее</router-link>
-                <router-link :to="`/ToDoListVue/edit-tasks/${task.id}`" class="button">Редактировать</router-link>
+                <router-link :to="`/ToDoListVue2/tasks/${task.id}`" class="button">Подробнее</router-link>
+                <router-link :to="`/ToDoListVue2/edit-tasks/${task.id}`" class="button">Редактировать</router-link>
                <!-- на сбытие добавляем нашу мутацию из модуля -->
                 <a @click="delTask(task.id)" class="button del">Удалить</a>
             </li>

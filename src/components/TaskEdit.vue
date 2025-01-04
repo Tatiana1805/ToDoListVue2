@@ -64,7 +64,7 @@ export default {
         // при нажатии сохранить, наши данные меняются и переходим на стр с задачами
         submitEdit() {
             this.updateTask(this.updatedTask)
-            this.$router.push('/ToDoListVue/tasks')
+            this.$router.push('/ToDoListVue2/tasks')
         }
     }
 

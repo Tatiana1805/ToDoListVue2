@@ -9,12 +9,12 @@ import TaskEdit from "./components/TaskEdit.vue";
 
 const routes = [
     // redirect - 'эта страница будет открываться по умолчанию'
-    {path: '/ToDoListVue/', redirect: '/home'},
-    {path: '/ToDoListVue/tasks', name: 'MyTasks', component: MyTasks},
-    {path: '/ToDoListVue/themeLive', name: 'ThemeLive', component: ThemeLive},
-    {path: '/ToDoListVue/create-task', name: 'CreateTask', component: CreateTask},
-    {path: '/ToDoListVue/tasks/:id', name: 'Task', component: Task},
-    {path: '/ToDoListVue/edit-tasks/:id', name: 'TaskEdit', component: TaskEdit},
+    {path: '/ToDoListVue2/', redirect: '/home'},
+    {path: '/ToDoListVue2/tasks', name: 'MyTasks', component: MyTasks},
+    {path: '/ToDoListVue2/themeLive', name: 'ThemeLive', component: ThemeLive},
+    {path: '/ToDoListVue2/create-task', name: 'CreateTask', component: CreateTask},
+    {path: '/ToDoListVue2/tasks/:id', name: 'Task', component: Task},
+    {path: '/ToDoListVue2/edit-tasks/:id', name: 'TaskEdit', component: TaskEdit},
 ]
 
 // создание путей

@@ -5,7 +5,7 @@
         <p>Приоритет: {{ task.priority }}</p>
         <p>Срок: {{ task.deadline }}</p>
         <p>Статус: {{ task.status }}</p>
-        <router-link to="/ToDoListVue/tasks" class="button">Наказд к списку</router-link>
+        <router-link to="/ToDoListVue2/tasks" class="button">Наказд к списку</router-link>
     </div>
 </template>
 
