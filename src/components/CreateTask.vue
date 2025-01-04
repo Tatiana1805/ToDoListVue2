@@ -53,7 +53,7 @@
                     status: 'Новая',
                 })
                 //переходим на страницу с задачами
-                this.$router.push('/tasks')
+                this.$router.push('/ToDoListVue/tasks')
             }
         }
     }

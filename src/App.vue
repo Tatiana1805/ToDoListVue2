@@ -10,9 +10,9 @@ export default{
     <div id="app" :class="$store.state.themeLive.theme">
         <nav class="nav">
             <!-- router-link - как "a", но нет перехода стр и она не перезагружается -->
-            <router-link to="/tasks" class="link">Мои задачи</router-link>
-            <router-link to="/create-task" class="link">Создать задачу</router-link>
-            <router-link to="/themeLive" class="link">Выбор темы</router-link>
+            <router-link to="/ToDoListVue/tasks" class="link">Мои задачи</router-link>
+            <router-link to="/ToDoListVue/create-task" class="link">Создать задачу</router-link>
+            <router-link to="/ToDoListVue/themeLive" class="link">Выбор темы</router-link>
         </nav>
         <!-- router-view - не происходит переход на др стр. Данные помещаются сюда и происходит отрисовка (отрисовка нашего router) -->
         <router-view></router-view>
